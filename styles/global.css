@@ -33,3 +33,13 @@ header .logo {
 main {
     padding: 20px;
 }
+
+#hello {
+    background-color: tan;
+    width: 300px;
+}
+
+#name-input-result {
+    background-color: white;
+    width: 300px;
+}
