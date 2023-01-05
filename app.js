@@ -1,11 +1,9 @@
-/* Imports */
+const input = document.getElementById('input');
+const button = document.getElementById('button');
+const nameInputResult = document.getElementById('name-input-result');
+console.log(input, 'input');
 
-/* Get DOM Elements */
-
-/* State */
-
-/* Events */
-
-/* Display Functions */
-
-// (don't forget to call any display functions you want to run on page load!)
+button.addEventListener('click', () => {
+    nameInputResult.textContent = input.value;
+    input.value = '';
+});
